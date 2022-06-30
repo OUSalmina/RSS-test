@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main> <!--семантический web-->
+        <article>
+          <header>
+            <h1> Theme 1 </h1>
+            <img src="article.png" alt="Заголовок статьи">
+          </header>
+      
+          <p> Main content </p>
+          <footer>
+            <address>
+              <p> Uncle Sam </p>
+              <p> Email: 123@tru.ru </p>
+            </address>
+            <time datetime="2022-03-03"> 3 Marth</time>
+          </footer>
+        </article>
+      </main>
+<!-- Микроразметка со словарем-->
+      <section itemscope itemtype="http://schema.org/Organization">
+        <h1 itemprop="name">Компания «Прауд»</h1>
+        <p>Адрес: <span itemprop="address">г.Мотино, улица Строителей, дом 6</span></p>
+        <p>Телефон: <span itemprop="telephone">8 (8765) 333-00-00</span></p>
+        <p>Email: <span itemprop="email">info@proud-company.test</span></p>
+      </section>
+    <div>
+      <h6>Part II</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto, eligendi nam enim, labore eaque eveniet quae natus maiores reiciendis in aperiam laborum doloremque voluptatum quam quod molestias aliquid voluptate maxime.
+      </p>
+    </div>
+    <div class="block"></div>
+    
+  
+
+</body>
+</html>

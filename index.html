@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"><!--user-scalable=no запрет на масштабирование-->
+    <meta name="description" content="lessons HTML.">
+    <meta name="keywords" content="программирование, курсы, HTML, CSS">
+    <title>Курс HTML</title>
+    <link rel="icon" href="https://www.w3schools.com/favicon.ico" type="image" sizes="64*64">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+    <header>
+      <div><a href="https://www.youtube.com/watch?v=nxCLXMBl4e4" target="_blank">
+        <img src="assets/pic1.png" alt="man" width="150px"></a>
+        
+      </div>
+      
+            <img src="/logo.png" alt="Логотип"> 
+            <nav> <!-- for navigation of site-->
+              <ul>
+                <li><a href="/about">О нас</a></li>
+                <li><a href="/contacts">Контакты</a></li>
+              </ul>
+            </nav>
+    </header>
+    <main>
+        <aside> 
+            <nav>
+            
+              <ol>
+                <li><a href="/service-1/">Услуга 1</a></li>
+                <li><a href="/service-2/">Услуга 2</a></li>
+                <li><a href="/service-3/">Услуга 3</a></li>
+              </ol>
+            </nav>
+            
+         </aside>
+         <div>
+                <p title="Вспывающая подсказка">Глобальный атрибут подходит всем</p>
+                <p> Выделить <b>жирным</b>, работаем с текстом.</p>
+                <p>HTML — <strong>язык разметки гипертекста</strong></p> <!--логическое выделение-->
+                <p><i>Code Basics</i> — <em>бесплатные курсы</em> по программированию</p>
+                <p>Hexlet - hands-on <em>programming</em> <b>courses</b></p>
+        </div>
+    <section>
+                <h2> Header2 </h2>
+    </section>
+    <section>
+                <h2> Header2.1 </h2> 
+                    <article>
+                        <h3>Our events</h3>
+                        <p> New Year </p>
+                    </article>
+                    <article>
+                         <h3>Our holidays</h3>
+                         <p> Weekend</p>
+                    </article>
+      </section>
+    </main>
+    <div>
+    
+        <ul>
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ul>
+        <ol>
+             <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+            <li>5</li>
+        </ol>
+         <ol>
+            <li>Профессия JavaScript
+        <ul>
+            <li>Frontend</li>
+            <li>Backend</li>
+        </ul>
+            </li>
+            <li>Профессия PHP</li>
+        </ol>
+</div>
+    <!--Важно отметить, что вложенный список является частью пункта списка и находится внутри тега <li>:-->
+        <table>
+            <caption>Ассортимент напитков «Hexlet»</caption>
+            <thead> 
+              <tr>
+              <th> Напиток </th>
+              <th> Объем </th>
+              </tr>
+            </thead>
+            <tbody>
+            <tr>
+              <td>Сок </td>
+              <td>200мл </td>
+            </tr>
+            <tr>
+              <td>Морс </td>
+              <td>300 мл </td>
+            </tr>
+        </tbody>
+             </table>
+             <table>
+                <thead>
+                  <tr>
+                    <th> Напиток </th>
+                    <th> Объем </th>
+                    <th>Цена </th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td colspan="2">Сок 200 мл </td> <!--объединение ячеек-->
+                    <td> 100 рублей </td>  
+                  </tr>
+                </tbody>
+              </table>
+
+<!--&nbsp; — неразрывный пробел. Очень важная вещь, которая позволяет не переносить строку с пробелом там, где это может испортить логическую структуру текста
+&laquo; и &raquo; — традиционные «кавычки-ёлочки». Повсеместно используются в типографике
+&mdash; — длинное тире-->
+<div>
+<a href="https://code-basics.com/" target="_blank">Code Basics</a>
+<pre>
+    Lorem ipsum dolor 
+    sit amet consectetur, adipisicing elit.
+     Officiis exercitationem ad facilis voluptas accusantium 
+     reprehenderit sed repellendus et modi nisi, repellat quisquam perspiciatis, 
+     nostrum quos porro ducimus ipsum ullam inventore.
+</pre>
+<code> <!-- для демонстарции кода-->
+    &lt<span>div</span>&gt &#9786 &lt;<span>div</span>&gt
+</code>
+<code>
+        &lt;<span>p</span>&gt;Вставляем тег p в виде простого текста &lt;<span>/p</span>&gt;
+</code>
+</div>
+<div class="block1">
+
+    <img src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png" alt="W3C">
+
+<audio controls>
+    <source src="https://www.w3schools.com/html/horse.ogg">
+    <source src="https://www.w3schools.com/html/horse.mp3">
+</audio>
+<video src="https://www.w3schools.com/html/movie.mp4" width="320" height="240" controls></video>
+<br>
+    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</span> 
+ <hr>
+    <span>Quod cupiditate laudantium quas sapiente quaerat adipisci,</span>
+</div>
+    <form action="/people">
+    <!--Основным атрибутом у тега <form> является action — путь к файлу, 
+    где располагается обработчик данных. Именно туда уйдут данные после отправки формы.-->
+    <label>Поставьте галочку
+        <input type="checkbox"><!-- первый способ связать инпут и лебел-->
+    </label>
+    <label for="name"> Введите текст</label> <!--связь через класс-->
+        <input type="text" id="name" placeholder="Anna">
+    </form>
+    <form>
+        <label for="pin">Введите пинкод</label>
+            <input type="password" id="pin" placeholder="1234">
+        <label for="">
+            <input type="checkbox" name="drinks" value="coffee">
+        </label>
+      </form>
+      <form action="/people">
+        <label> Tea
+            <input type="checkbox" name="drinks" value="tea">
+          </label>
+        <br>
+        <label> Coffee
+              <input type="checkbox" name="drinks" value="coffee">
+          </label>
+      </form>
+      <hr>
+    <form action="/people">
+        <label>First
+            <input type="radio" name="delivery" value="first">
+        </label>
+        <label>Second
+            <input type="radio" name="delivery" value="second">
+        </label>
+    </form>
+    <br>
+    <form action="/people">
+        <textarea rows="4" cols="30"> Your text </textarea>
+    </form>
+    <form action="/people">
+    <select multiple>
+        <option disabled>What Your Choice?</option>
+        <option>Tea</option>
+        <option >Coffee</option>
+        <option >Juice</option>
+    </select>
+</form>
+<form>
+    <button>Send</button>
+</form>
+<div>
+    <img src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png" alt="logo-w3c-screen-lg">
+ <ul>
+   <li>
+     <a href="https://github.com/rolling-scopes-school/tasks/tree/master/stage0/modules/html-basics">link1</a>
+   </li>
+   <li>
+     <a href="https://docs.rs.school/#/private-repository">Link2</a>
+   </li>
+ </ul>
+</div>
+</body>
+</html>

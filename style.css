@@ -1,0 +1,12 @@
+body {
+	margin: 0px 0px 0px 0px;
+	color: rgb(177, 150, 116);
+}
+button {
+	background-color: aqua;
+	border: 3px solid;
+	border-radius: 30px;
+}
+.block1 {
+	background-color: blueviolet;
+}
